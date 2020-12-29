@@ -1,0 +1,928 @@
+@media screen and (max-width: 1200px){
+    .container {
+       width: 90%;
+       margin: 0 auto;
+    }
+    .banner .bannerWrp .Lbanner p {
+        font-size: 18px;
+        color: #7a7a7a;
+    }
+    .banner .bannerWrp .Lbanner h1 {
+        font-size: 32px;
+        padding: 20px 0;
+        line-height: 1.4;
+    }
+    .banner .bannerWrp .Lbanner a {
+        font-size: 15px;
+        padding: 16px 29px;
+        margin: 10px 0 0;
+    }
+    .Assit .Service {
+        padding: 0 0 0 77px;
+        width: 100%;
+    }
+    .Assit {
+        padding: 20px 0 40px;
+    }
+    footer .FooterContent .Ftcmn img {
+        max-width: 15% !important;
+        margin: 0 12px 0px 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container {
+       width: 90%;
+       margin: 0 auto;
+    }
+    .main-bar {
+        right: 57px;
+        top: 26px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+    }
+    .sticky{
+        padding: 2px 26px 2px 55px;
+        height: 85px!important;
+        .main-bar {
+            right: 40px;
+            top: 24px;
+            display: block;
+            cursor: pointer;
+            position: fixed;
+            z-index: 100;
+            div {
+            width: 35px;
+            height: 4px;
+            margin: 6px 0;
+          //  background: rgb(255, 255, 255);
+          background-image: linear-gradient(45deg, #fffeff, #1b104a);
+            transition: all .5s ease-in;
+        }
+        }
+    }
+
+    nav.myHeader .activefile {
+        top: 35px!important;
+    }
+    .sticky .main-bar.activefile {
+        top: 35px!important;
+    }
+    .sticky .col-right {
+        top: 83px;
+    }
+    .sticky .loading {
+        display: flex;
+        justify-content: left;
+    }
+    .activefile .a {
+        transform: rotateZ(43deg);
+        transition: all .5s ease-in;
+    }
+    .activefile .b {
+        display: none;
+    }
+    .activefile .c {
+    transform: rotateZ(-46deg);
+    top: 0px;
+    position: absolute;
+    transition: all .4s ease-in;
+    margin: 6px 0 0 0px;
+   }
+    .main-bar div {
+        width: 35px;
+        height: 4px;
+        margin: 6px 0;
+       //@function background: #1f61c1;
+       background-image: linear-gradient(45deg, #1f61c1, #1b104a);
+        transition: all .4s ease-in;
+    }
+    .col-right {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        top: 88px;
+        overflow-x: hidden;
+        display: none;
+        right: 0px;
+        background: #163265fa;
+        text-align: center;
+        border-bottom: 3px solid #8367f5;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+       }
+    .col-right ul{
+        display: block;
+        li{
+        padding: 15px 0;
+        border-bottom: 1px solid #ffffff2e;
+        a{
+            color: #fff;
+        }
+        }
+    }
+    .TouchUS .TContentWrp {
+        text-align: center;
+        padding: 45px 0;
+        color: #ffffff;
+        h4 {
+            font-size: 20px;
+            padding: 78px 0 20px;
+        }
+        h2 {
+            font-size: 26px;
+        }
+        a{
+            padding: 15px 32px;
+        }
+    }
+    .Assit .head h2 {
+    font-size: 27px;  
+    }
+    .Assit .head h2 :before {
+        content: '';
+        width: 127px;
+    }
+    .OurClient .Client-head {
+        padding: 19px 0 30px;
+        h2 {
+            font-size: 1.77rem;
+        }
+      }
+    .FooterContent h2 {
+        font-size: 24px;
+    }
+
+//Design
+    .Heading h2 {
+        font-size: 33px;
+    }
+    .Main-Desingn .DesingnWrp{
+        align-items: center;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 27px;
+        padding: 0 0 20px;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .Main-Desingn {
+        width: 100%;
+        padding: 29px 0 42px;
+    }
+    .DesingnWrp2{
+        margin:70px 0 0;
+    }
+    .PricingTable .PriceHead h2 {
+        padding: 0 0 23px;
+        font-size: 29px;
+        padding: 20px 0 59px;
+       }
+       .PricingTable .PriceHead h2::before {
+        transform: translate(40px, 6px);
+        width: 95px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h2 {
+        font-size: 24px;
+        padding: 10px 0 30px;
+    }
+    .PricingTable .PrngCnt_Wrp {
+        width: 90%;
+        margin: 0 auto;
+        padding: 22px 0 50px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h4 {
+        padding: 18px 0;
+        font-size: 18px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 li {
+        padding: 18px 0;
+        font-size: 15px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 a {
+        font-size: 14px;
+        padding: 15px 23px;
+        margin: 27px 0 0;
+    }
+    //logo
+    .loading {
+        font-size: 21px;
+    }
+    nav .logo img {
+        max-width: 21%;
+    }
+    nav{
+        padding: 0 0 0;
+        height: 86px;
+    }
+    header {
+        background-image: linear-gradient(45deg, white,#e1e0e0c4, transparent);
+        box-shadow: -2px 3px 8px 0px #bcbcbc87;
+    }
+    .Rbanner {
+        padding: 10px 0 0;
+    }
+}
+
+
+@media screen and  (max-width:979px){
+
+    .banner .bannerWrp .Lbanner h1 {
+        font-size: 27px;
+        padding: 20px 0;
+    }
+    .banner .bannerWrp .Lbanner h1 br{
+    display: none;
+   }
+   .banner .bannerWrp .Lbanner a {
+    font-size: 15px;
+    padding: 15px 28px;
+    margin: 9px 0 0;
+    }
+    .Assit .head p br{
+        display: none;
+    }
+    .OurClient .Client-head h2 {
+        font-size: 26px;
+    }
+    .Assit .head h2 {
+        font-size: 25px;
+    }
+    .OurClient .Childwrp{
+        padding:20px 0 60px;
+    }
+    .Assit .Service {
+        padding: 0 0 0 53px;
+        width: 100%;
+    }
+    .Assit .Service .SrCnt h2 {
+        font-size: 22px;
+    }
+    .Assit .head h2:before {
+        content: '';
+        width: 130px;
+        transform: translate(82px, 6px);
+        }
+        .Assit .SrContent1::before,.Assit .SrContent2::before
+        ,.Assit .SrContent3::before,.Assit .SrContent4::before,
+        .Assit .SrContent5::before,.Assit .SrContent6::before
+        {
+            content: '';
+            width: 39px;
+            height: 39px;
+            left: -49px;
+        }   
+        .Rnav ul li a{
+            font-size:17px;
+        }  
+    //logo
+    nav .logo {
+     width: 50%!important;
+    // color:#fff;
+    }
+    nav .logo img {
+        max-width: 15%;
+        height: 53px;
+    }
+    //
+}
+
+@media screen and (max-width:767px){
+    .banner .bannerWrp{
+        padding:  30px 0 0;
+    }
+    .banner .bannerWrp .Lbanner h1 {
+        font-size: 24px;
+        padding: 20px 15px 20px 0px;
+    }
+    .banner .bannerWrp .Lbanner p {
+        font-size: 17px;
+        color: #7a7a7a;
+    }
+    .Assit .Service .SrCnt {
+        width: 46%;
+        margin: 12px 0px;
+    }
+    footer .FooterContent{
+        justify-content: space-between;
+    }
+    .Assit .Service .SrCnt h2 {
+        font-size: 21px;
+    }
+    .Assit .Service .SrCnt p {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    .Assit .SrContent1::before, .Assit .SrContent2::before, .Assit .SrContent3::before, .Assit .SrContent4::before, .Assit .SrContent5::before, .Assit .SrContent6::before {
+        content: '';
+        width: 34px;
+        height: 34px;
+        left: -42px;
+    }
+    .Assit .Service {
+        padding: 0 0 0 76px;
+        width: 100%;
+    }
+    .TouchUS .TContentWrp h2 {
+        font-size: 25px;
+    }
+    .TouchUS .TContentWrp h4 {
+        font-size: 19px;
+        padding: 70px 0 20px;
+    }
+    .TouchUS .TContentWrp a {
+        padding: 15px 32px;
+        font-size: 15px;
+    }
+    .mainContentWrp .CmnQuery {
+        width: 100%;
+    }
+    .Lquery{
+        text-align: center;
+    }
+    .mainContentWrp .CmnQuery h2 {
+        font-size: 27px;
+        padding: 25px 0px 30px;
+    }
+    footer .FooterContent h2 {
+        font-size: 22px;
+        padding: 0 0 50px;
+    }
+    .OurClient .owl-nav button.owl-prev span,.OurClient .owl-nav button.owl-next span {
+        font-size: 25px;
+       // padding: 3px 9px 12px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    //stiky--
+    .sticky .main-bar {
+        right: 34px;
+        top: 23px;
+    }
+    .sticky {
+        padding: 4px 17px 4px 40px;
+        height: 84px;
+    }
+
+    .Main-Desingn .DesingnWrp .Dcmn01 {
+        width: 100%;
+        text-align: center;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 25px;
+        padding: 24px 0 22px;
+    }
+    .PricingTable .PrngCnt_Wrp{
+        width: 100%;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 {
+        padding: 16px 14px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h2 {
+        font-size: 22px;
+        padding: 10px 0 22px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h4 {
+        padding: 16px 0;
+        font-size: 17px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 a {
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+    .PricingTable .PriceHead h2 {
+        font-size: 25px;
+    }
+    .Heading h2 {
+        font-size: 26px;
+    }
+    .Heading {
+        padding: 26px 0;
+    }
+    //About
+    .Devbann {
+        width: 100%;
+        padding: 39px 0;
+    }
+    .Devbann .Devcontent h2 {
+        font-size: 19px;
+    }
+    .Devbann .Devcontent h2 br {
+    display: none;
+    }
+    .Testimonial {
+        padding: 38px 0 24px;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn p br{
+        display: none;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn {
+        width: 48%;
+        border: 1px solid #dcdcdc;
+        padding: 20px 15px;
+        border-radius: 5px;
+        margin: 0 0 24px;
+    }
+    .mainContentWrp{
+        padding: 30px 0 5px;
+    }
+    .Lquery.CmnQuery {
+        margin: 0 0 75px;
+    }
+    #QuerySection p {
+        padding: 0px 0 8px;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    #QuerySection p br{
+        display: none;
+    }
+    #QuerySection h2 {
+        text-align: center;
+        font-size: 23px;
+        padding: 13px 0px 27px;
+    }
+    .main-bar {
+        right: 44px;
+     }
+    //particles
+    .mainContentWrp #particles-js {
+        width: 100%;
+    }
+    .Heading .particles-js-canvas-el {
+        height: 79px !important;
+    }
+    .Rnav ul li a{
+        font-size:16px;
+    }  
+    //logo
+    .loading {
+        font-size: 19px;
+    }
+    .loading a span {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    nav .logo img {
+        max-width: 22%;
+        height: 53px;
+    }
+    footer .FooterContent .Ftcmn img {
+        margin: 0px 9px 0px 0;
+        max-width: 22%!important;
+        height: 53px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .banner .bannerWrp .Lbanner p {
+        font-size: 16px;
+        color: #7a7a7a;
+    }
+    nav .logo img {
+        max-width: 15%;
+        height: 48px;
+    }
+    .banner .bannerWrp .Lbanner h1 {
+        font-size: 20px;
+        padding: 10px 15px 10px 0px;
+    }
+    .banner .bannerWrp .Lbanner a {
+        font-size: 14px;
+        padding: 11px 17px;
+        margin: 6px 0 0;
+    }
+    .Assit .head h2 {
+        font-size: 21px;
+    }
+    .Assit .head h2:before {
+        content: '';
+        width: 107px;
+        transform: translate(72px, 3px);
+    }
+    .Assit .head p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .Assit .Service .SrCnt {
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .Assit .Service {
+        padding: 0 0 0 60px;
+        width: 100%;
+    }
+
+    .Assit .Service .SrCnt p {
+        font-size: 16px;
+        padding: 30px 0 12px;
+        line-height: 1.6;
+    }
+    .TouchUS .TContentWrp h2 {
+        font-size: 22px;
+    }
+    .TouchUS .TContentWrp h2:before {
+        width: 120px;
+        transform: translate(105px, 6px);
+    }
+    .TouchUS .TContentWrp a {
+        padding: 13px 29px;
+    }
+    .TouchUS .TContentWrp {
+        padding: 31px 0;
+    }
+    // .OurClient .owl-nav button.owl-prev,   .OurClient .owl-nav button.owl-next {
+    //     font-size: 27px !important;
+    //     top: 67px;
+    // }
+    footer .FooterContent .Ftcmn {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .FooterContent{
+    padding: 37px 0 30px;
+    }
+    footer .FooterContent h2 {
+        font-size: 19px;
+        padding: 28px 0 49px;
+    }
+    footer .FooterContent h2:before {
+        content: '';
+        width: 72px;
+        height: 1px;
+        bottom: 35px;
+    }
+    footer .FooterContent .Ftcmn li a {
+        font-size: 16px;
+        padding: 0 0 20px;
+    }
+    footer .copyright p {
+        font-size: 14px;
+    }
+    .Heading h2 {
+        font-size: 22px;
+    }
+    .Heading {
+        padding: 21px 0;
+        margin: 20px 0 0px;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .DesingnWrp2 {
+        margin: 35px 0 0;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 {
+        padding: 16px 14px;
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+    .PricingTable .PriceHead h2 {
+        font-size: 23px;
+        padding: 0 0 31px;
+    }
+    .PricingTable .PriceHead h2::before {
+        transform: translate(35px, 28px);
+        width: 84px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h2 {
+        font-size: 21px;
+        padding: 10px 0 22px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h4 {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    .PricingTable .PrngCnt_Wrp {
+        padding: 22px 0 25px;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 23px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 li {
+        padding: 16px 0;
+        font-size: 15px;
+    }
+
+    //dev
+
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 22px;
+        padding: 24px 0 22px;
+    }
+    .Rdesign a {
+        padding: 14px 23px;
+        margin: 33px 0 8px;
+        font-size: 16px;
+    }
+    //digit
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 22px;
+        padding: 24px 0 22px;
+    }
+    .OurClient .owl-nav button.owl-next{
+        top:152px;
+        right: 49px!important;
+    }
+    .OurClient .owl-nav button.owl-prev{
+        top:152px;
+        left: 49px;
+    }
+    .OurClient .Client-head h2 {
+        font-size: 21px;
+    }
+    .OurClient .Client-head h2:before {
+        content: '';
+        width: 104px;
+        transform: translate(87px, 6px);
+    }
+    .OurClient .Childwrp {
+        padding: 20px 0 60px;
+        margin-bottom: 20px;
+    }
+    .Testimonial {
+        padding: 18px 0 20px;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn {
+        width: 100%;
+        padding: 22px 15px;
+        margin: 0 0 24px;
+    }
+    .Testimonial .Test-Head {
+        padding: 20px 0 28px;
+        font-size: 25px;
+    }
+    .Testimonial .Test-Head::before {
+        transform: translate(-51px, 30px);
+        width: 104px;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn li span {
+        font-size: 17px;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn li .fas {
+        padding: 18px 0;
+    }
+    #QuerySection h2 {
+        font-size: 23px;
+        padding: 13px 0px 15px;
+        padding-top: 26px;
+    }
+    #QuerySection p {
+        padding: 0px 0 8px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #QuerySection li i {
+        font-size: 15px;
+        padding: 17px 0 0;
+    }
+    .main-bar {
+        right: 28px;
+        top:19px;
+    }
+    .main-bar div {
+        width: 33px;
+        height: 4px;
+        margin: 5px 0;
+    }
+    nav.myHeader .activefile {
+        top: 27px !important;
+    }
+    .col-right{
+        top:67px;
+    }
+    //particles
+    .Heading .particles-js-canvas-el {
+        height: 65px !important;
+    }
+    .Rnav ul li a{
+        font-size:15px;
+    }  
+    //logo
+    .wave a{
+        width: 70%;
+        text-align: left;
+    }
+    .wave img{
+        width: 30%;
+    }
+    nav .logo {
+        width: 80% !important;
+    }
+    .loading {
+        font-size: 17px;
+        line-height: 17px;
+    }
+   .loading a span {
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 0 18px 0px;
+}
+    nav {
+        padding: 0 0 0;
+        height: 65px;
+    }
+    .sticky {
+        padding: 0px 17px 0px 40px;
+        height: 72px!important;
+    }
+    .sticky .main-bar {
+        right: 34px;
+        top: 18px;
+    }
+    .sticky .main-bar.activefile {
+        top: 28px !important;
+    }
+    .sticky .col-right {
+        top: 72px;
+    }
+    footer .FooterContent .Ftcmn img {
+        max-width: 13% !important;
+        margin: 0 7px 0px 0;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .main-bar {
+        right: 18px;
+        top: 20px;
+    }
+    .main-bar div {
+        width: 30px;
+        height: 3px;
+        margin: 5px 0;
+    }
+    nav .logo img {
+        max-width: 19%;
+        height: 40px;
+    }
+    nav {
+        padding: 0 0 0;
+        height: 62px;
+    }
+    .col-right {
+        top: 65px;
+    }
+    .banner .bannerWrp .Lbanner p {
+        font-size: 14px;
+    }
+    .banner .bannerWrp .Lbanner h1 {
+        font-size: 16px;
+        padding: 10px 0px 10px 0px;
+    }
+    .banner .bannerWrp .Bcmn img {
+        max-width: 110%;
+    }
+    .banner .bannerWrp .Lbanner a {
+        font-size: 14px;
+        padding: 11px 14px;
+        margin: 6px 0 0;
+    }
+    .Assit {
+        padding: 20px 0 15px;
+    }
+    .Assit .head p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .Assit .head h2 {
+        font-size: 19px;
+        padding: 20px 0 42px;
+    }
+    .Assit .head h2:before {
+        content: '';
+        width: 88px;
+        transform: translate(61px, 19px);
+    }
+    .Assit .head {
+        text-align: center;
+        padding: 22px 0 25px;
+    }
+    .Assit .Service .SrCnt p {
+        font-size: 15px;
+        padding: 8px 0 0px;
+        line-height: 1.6;
+    }
+    .Assit .Service .SrCnt h2 {
+        font-size: 18px;
+    }
+    .Assit .SrContent1::before, .Assit .SrContent2::before, 
+    .Assit .SrContent3::before, .Assit .SrContent4::before,
+     .Assit .SrContent5::before, .Assit .SrContent6::before {
+        content: '';
+        width: 30px;
+        height: 30px;
+        left: -42px;
+    }
+    .TouchUS .TContentWrp h2 {
+        font-size: 18px;
+    }
+    .TouchUS .TContentWrp h2:before {
+        width: 107px;
+        transform: translate(93px, -4px);
+    }
+    .TouchUS .TContentWrp h4 {
+        font-size: 17px;
+        padding: 53px 0 15px;
+    }
+    .TouchUS .TContentWrp a {
+        padding: 12px 24px;
+    }
+    .mainContentWrp .CmnQuery h2 {
+        font-size: 24px;
+        padding: 25px 0px 30px;
+    }
+    .mainContentWrp form input, .mainContentWrp form textarea {
+        width: 100%;
+        padding: 13px 9px;
+        font-size: 13px;
+    }
+    .mainContentWrp form {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .OurClient .Client-head h2 {
+        font-size: 19px;
+    }
+    .OurClient .Client-head h2:before {
+        content: '';
+        width: 110px;
+        transform: translate(76px, 3px);
+    }
+    .OurClient .owl-nav button.owl-prev {
+        font-size: 27px !important;
+        top: 119px;
+        left: 86px;
+    }
+    .OurClient .owl-nav button.owl-next{
+        right: 82px!important;
+        top: 119px;
+    }
+    .Heading {
+        padding: 19px 0;
+        margin: 7px 0 0px;
+    }
+    .Main-Desingn .DesingnWrp .Dcmn01 h2 {
+        font-size: 22px;
+        padding: 24px 0 22px;
+    }.Main-Desingn .DesingnWrp .Dcmn01 p {
+        font-size: 15px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+    .PricingTable .PrngCnt_Wrp {
+        padding: 0px 0 25px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h2 {
+        font-size: 19px;
+        padding: 3px 0 20px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 h4 {
+        padding: 14px 0;
+        font-size: 15px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 li {
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 a {
+        font-size: 14px;
+        padding: 13px 13px;
+        margin: 13px 0 0;
+    }
+    footer .FooterContent{
+        padding: 22px 0 9px;
+    }
+
+    ///dev
+    .Main-Desingn .DesingnWrp .Dcmn01 p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .PricingTable .PrngCnt_Wrp .PrcCmn01 a {
+        font-size: 14px;
+        padding: 13px 15px;
+        margin: 19px 0 0;
+    }
+    .Testimonial .TestmonilaContent .Tstcmn p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
